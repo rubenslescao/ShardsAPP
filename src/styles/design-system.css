@@ -1,0 +1,200 @@
+/* ===================================
+   DESIGN SYSTEM - CSS Custom Properties
+   =================================== */
+
+:root {
+    /* ===== COLOR PALETTE ===== */
+    /* Premium Dark Mode Colors */
+    --color-bg-primary: hsl(220, 26%, 8%);
+    --color-bg-secondary: hsl(220, 20%, 12%);
+    --color-bg-tertiary: hsl(220, 18%, 16%);
+    --color-bg-elevated: hsl(220, 22%, 14%);
+    
+    /* Glassmorphism */
+    --color-glass-bg: hsla(220, 20%, 18%, 0.6);
+    --color-glass-border: hsla(220, 40%, 60%, 0.15);
+    
+    /* Text Colors */
+    --color-text-primary: hsl(0, 0%, 98%);
+    --color-text-secondary: hsl(220, 10%, 70%);
+    --color-text-tertiary: hsl(220, 10%, 50%);
+    --color-text-muted: hsl(220, 10%, 35%);
+    
+    /* Brand & Accent Colors */
+    --color-primary: hsl(280, 85%, 60%);
+    --color-primary-dark: hsl(280, 85%, 50%);
+    --color-primary-light: hsl(280, 85%, 70%);
+    --color-primary-glow: hsla(280, 85%, 60%, 0.4);
+    
+    --color-secondary: hsl(200, 95%, 55%);
+    --color-secondary-dark: hsl(200, 95%, 45%);
+    
+    /* Category Colors */
+    --color-relationship: hsl(340, 85%, 60%);
+    --color-relationship-glow: hsla(340, 85%, 60%, 0.3);
+    
+    --color-fitness: hsl(120, 75%, 50%);
+    --color-fitness-glow: hsla(120, 75%, 50%, 0.3);
+    
+    --color-skillup: hsl(45, 95%, 60%);
+    --color-skillup-glow: hsla(45, 95%, 60%, 0.3);
+    
+    --color-adventure: hsl(200, 90%, 55%);
+    --color-adventure-glow: hsla(200, 90%, 55%, 0.3);
+
+    --color-financial: hsl(150, 90%, 40%);
+    --color-financial-glow: hsla(150, 90%, 40%, 0.3);
+
+    --color-lifestyle: hsl(25, 95%, 60%);
+    --color-lifestyle-glow: hsla(25, 95%, 60%, 0.3);
+
+    --color-community: hsl(260, 85%, 65%);
+    --color-community-glow: hsla(260, 85%, 65%, 0.3);
+    
+    /* Status Colors */
+    --color-success: hsl(140, 70%, 50%);
+    --color-success-bg: hsla(140, 70%, 50%, 0.15);
+    
+    --color-warning: hsl(40, 95%, 55%);
+    --color-warning-bg: hsla(40, 95%, 55%, 0.15);
+    
+    --color-danger: hsl(5, 80%, 55%);
+    --color-danger-bg: hsla(5, 80%, 55%, 0.15);
+    
+    --color-info: hsl(210, 90%, 60%);
+    --color-info-bg: hsla(210, 90%, 60%, 0.15);
+    
+    /* Progress States */
+    --color-not-started: hsl(220, 10%, 40%);
+    --color-in-progress: hsl(200, 90%, 55%);
+    --color-completed: hsl(140, 70%, 50%);
+    
+    /* ===== TYPOGRAPHY ===== */
+    --font-family-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    
+    --font-size-xs: 0.75rem;      /* 12px */
+    --font-size-sm: 0.875rem;     /* 14px */
+    --font-size-base: 1rem;       /* 16px */
+    --font-size-md: 1.125rem;     /* 18px */
+    --font-size-lg: 1.25rem;      /* 20px */
+    --font-size-xl: 1.5rem;       /* 24px */
+    --font-size-2xl: 1.875rem;    /* 30px */
+    --font-size-3xl: 2.25rem;     /* 36px */
+    --font-size-4xl: 3rem;        /* 48px */
+    
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    --font-weight-extrabold: 800;
+    
+    --line-height-tight: 1.2;
+    --line-height-normal: 1.5;
+    --line-height-relaxed: 1.75;
+    
+    /* ===== SPACING ===== */
+    /* Based on 4px grid */
+    --spacing-0: 0;
+    --spacing-1: 0.25rem;   /* 4px */
+    --spacing-2: 0.5rem;    /* 8px */
+    --spacing-3: 0.75rem;   /* 12px */
+    --spacing-4: 1rem;      /* 16px */
+    --spacing-5: 1.25rem;   /* 20px */
+    --spacing-6: 1.5rem;    /* 24px */
+    --spacing-8: 2rem;      /* 32px */
+    --spacing-10: 2.5rem;   /* 40px */
+    --spacing-12: 3rem;     /* 48px */
+    --spacing-16: 4rem;     /* 64px */
+    --spacing-20: 5rem;     /* 80px */
+    --spacing-24: 6rem;     /* 96px */
+    
+    /* ===== BORDER RADIUS ===== */
+    --radius-sm: 0.375rem;   /* 6px */
+    --radius-md: 0.5rem;     /* 8px */
+    --radius-lg: 0.75rem;    /* 12px */
+    --radius-xl: 1rem;       /* 16px */
+    --radius-2xl: 1.5rem;    /* 24px */
+    --radius-full: 9999px;
+    
+    /* ===== SHADOWS ===== */
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -2px rgba(0, 0, 0, 0.3);
+    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 10px 10px -5px rgba(0, 0, 0, 0.3);
+    --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
+    
+    --shadow-glow-primary: 0 0 20px var(--color-primary-glow),
+                           0 0 40px var(--color-primary-glow);
+    --shadow-glow-success: 0 0 20px hsla(140, 70%, 50%, 0.4);
+    
+    /* ===== Z-INDEX SCALE ===== */
+    --z-base: 0;
+    --z-dropdown: 100;
+    --z-sticky: 200;
+    --z-fixed: 300;
+    --z-modal-backdrop: 400;
+    --z-modal: 500;
+    --z-popover: 600;
+    --z-toast: 700;
+    
+    /* ===== TRANSITIONS ===== */
+    --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-base: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-slow: 350ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: 400ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    
+    /* ===== LAYOUT ===== */
+    --container-max-width: 1200px;
+    --container-padding: var(--spacing-4);
+    
+    --header-height: 70px;
+    --mobile-nav-height: 60px;
+    
+    /* ===== BREAKPOINTS (for reference in JS) ===== */
+    --breakpoint-sm: 640px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 1024px;
+    --breakpoint-xl: 1280px;
+}
+
+/* ===== GRADIENT PRESETS ===== */
+.gradient-primary {
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+}
+
+.gradient-relationship {
+    background: linear-gradient(135deg, hsl(340, 85%, 60%) 0%, hsl(320, 85%, 65%) 100%);
+}
+
+.gradient-fitness {
+    background: linear-gradient(135deg, hsl(120, 75%, 50%) 0%, hsl(140, 75%, 55%) 100%);
+}
+
+.gradient-skillup {
+    background: linear-gradient(135deg, hsl(45, 95%, 60%) 0%, hsl(30, 95%, 55%) 100%);
+}
+
+.gradient-adventure {
+    background: linear-gradient(135deg, hsl(200, 90%, 55%) 0%, hsl(220, 90%, 60%) 100%);
+}
+
+.gradient-financial {
+    background: linear-gradient(135deg, hsl(150, 90%, 40%) 0%, hsl(170, 90%, 45%) 100%);
+}
+
+.gradient-lifestyle {
+    background: linear-gradient(135deg, hsl(25, 95%, 60%) 0%, hsl(40, 95%, 65%) 100%);
+}
+
+.gradient-community {
+    background: linear-gradient(135deg, hsl(260, 85%, 65%) 0%, hsl(280, 85%, 70%) 100%);
+}
+
+.gradient-mesh {
+    background: 
+        radial-gradient(at 0% 0%, hsla(280, 85%, 60%, 0.15) 0px, transparent 50%),
+        radial-gradient(at 100% 0%, hsla(200, 95%, 55%, 0.15) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, hsla(340, 85%, 60%, 0.15) 0px, transparent 50%),
+        radial-gradient(at 0% 100%, hsla(120, 75%, 50%, 0.15) 0px, transparent 50%);
+}
